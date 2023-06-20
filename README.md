@@ -1,10 +1,7 @@
 ### Hi there 👋
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=pipeknight&show_icons=true&theme=tokyonight&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pipeknight&hide=html,jupyter-notebook,Jupyter+Notebook&layout=donut&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=pipeknight)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 Here are some ideas to get you started:
