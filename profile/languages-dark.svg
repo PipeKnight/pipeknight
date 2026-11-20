@@ -1,8 +1,8 @@
 
       <svg
-        width="550"
-        height="279"
-        viewBox="0 0 550 279"
+        width="500"
+        height="190"
+        viewBox="0 0 500 190"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -99,8 +99,8 @@
           y="0.5"
           rx="4.5"
           height="99%"
-          stroke="#e4e2e2"
-          width="549"
+          stroke="#343b58"
+          width="499"
           fill="#1a1b27"
           stroke-opacity="1"
         />
@@ -128,140 +128,150 @@
           
     <svg data-testid="lang-items" x="25">
       
-    <g transform="translate(0, 0)">
-      <g transform="translate(0, 0)">
-        <g transform="translate(0, 0)">
+  
+      <mask id="rect-mask">
+          <rect x="0" y="0" width="450" height="8" fill="white" rx="5"/>
+        </mask>
+        
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="0"
+          y="0"
+          width="317.07"
+          height="8"
+          fill="#dea584"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="317.07"
+          y="0"
+          width="77.56"
+          height="8"
+          fill="#3572A5"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="394.63"
+          y="0"
+          width="27.13"
+          height="8"
+          fill="#555555"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="421.76"
+          y="0"
+          width="11.16"
+          height="8"
+          fill="#012456"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="432.92"
+          y="0"
+          width="15.629999999999999"
+          height="8"
+          fill="#b07219"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="438.55"
+          y="0"
+          width="14.61"
+          height="8"
+          fill="#00ADD8"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="443.16"
+          y="0"
+          width="13.59"
+          height="8"
+          fill="#C1F12E"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="446.75"
+          y="0"
+          width="13.25"
+          height="8"
+          fill="#1a5e9a"
+        />
+      
+      
+    <g transform="translate(0, 25)">
+      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#dea584" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Rust 70.97%
+        Rust 70.46%
       </text>
     </g>
-  </g><g transform="translate(0, 32)">
+  </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 17.36%
+        Python 17.24%
       </text>
     </g>
-  </g><g transform="translate(0, 64)">
+  </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C 6.07%
+        C 6.03%
       </text>
     </g>
-  </g><g transform="translate(0, 96)">
+  </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#012456" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PowerShell 2.50%
+        PowerShell 2.48%
       </text>
     </g>
-  </g><g transform="translate(0, 128)">
-    <g class="stagger" style="animation-delay: 1050ms">
+  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#b07219" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Java 1.26%
+        Java 1.25%
       </text>
     </g>
-  </g><g transform="translate(0, 160)">
-    <g class="stagger" style="animation-delay: 1200ms">
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#00ADD8" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Go 1.03%
+        Go 1.02%
       </text>
     </g>
-  </g><g transform="translate(0, 192)">
-    <g class="stagger" style="animation-delay: 1350ms">
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#C1F12E" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         Batchfile 0.80%
       </text>
     </g>
-  </g>
-      </g>
-
-      <g transform="translate(125, -13)">
-        <svg width="550" height="550">
-       <g class="stagger" style="animation-delay: 600ms">
-        <path
-          data-testid="lang-donut"
-          size="70.98"
-          d="M 63.913381032612776 214.15517791805505 A 123.33333333333334 123.33333333333334 0 1 0 183.33333333333334 60"
-          stroke="#dea584"
-          fill="none"
-          stroke-width="12">
-        </path>
-      </g>
-      
-       <g class="stagger" style="animation-delay: 700ms">
-        <path
-          data-testid="lang-donut"
-          size="17.36"
-          d="M 100.84562461372863 91.64424444430162 A 123.33333333333334 123.33333333333334 0 0 0 63.913381032612776 214.15517791805505"
-          stroke="#3572A5"
-          fill="none"
-          stroke-width="12">
-        </path>
-      </g>
-      
-       <g class="stagger" style="animation-delay: 800ms">
-        <path
-          data-testid="lang-donut"
-          size="6.07"
-          d="M 140.90012613900487 67.52947312861347 A 123.33333333333334 123.33333333333334 0 0 0 100.84562461372863 91.64424444430162"
-          stroke="#555555"
-          fill="none"
-          stroke-width="12">
-        </path>
-      </g>
-      
-       <g class="stagger" style="animation-delay: 900ms">
-        <path
-          data-testid="lang-donut"
-          size="2.5"
-          d="M 159.53826425415642 62.31719474583622 A 123.33333333333334 123.33333333333334 0 0 0 140.90012613900487 67.52947312861347"
-          stroke="#012456"
-          fill="none"
-          stroke-width="12">
-        </path>
-      </g>
-      
-       <g class="stagger" style="animation-delay: 1000ms">
-        <path
-          data-testid="lang-donut"
-          size="1.26"
-          d="M 169.18341143561062 60.814392669452886 A 123.33333333333334 123.33333333333334 0 0 0 159.53826425415642 62.31719474583622"
-          stroke="#b07219"
-          fill="none"
-          stroke-width="12">
-        </path>
-      </g>
-      
-       <g class="stagger" style="animation-delay: 1100ms">
-        <path
-          data-testid="lang-donut"
-          size="1.03"
-          d="M 177.1365340911618 60.15577535192452 A 123.33333333333334 123.33333333333334 0 0 0 169.18341143561062 60.814392669452886"
-          stroke="#00ADD8"
-          fill="none"
-          stroke-width="12">
-        </path>
-      </g>
-      
-       <g class="stagger" style="animation-delay: 1200ms">
-        <path
-          data-testid="lang-donut"
-          size="0.8"
-          d="M 183.33333333333331 60 A 123.33333333333334 123.33333333333334 0 0 0 177.1365340911618 60.15577535192452"
-          stroke="#C1F12E"
-          fill="none"
-          stroke-width="12">
-        </path>
-      </g>
-      </svg>
-      </g>
+  </g><g transform="translate(0, 75)">
+    <g class="stagger" style="animation-delay: 900ms">
+      <circle cx="5" cy="6" r="5" fill="#1a5e9a" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        WGSL 0.72%
+      </text>
+    </g>
+  </g></g>
     </g>
   
     </svg>
