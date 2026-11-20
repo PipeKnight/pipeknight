@@ -23,7 +23,7 @@ jobs:
     env:
       CORE_VERSION: '2.3.1'
       STATS_OPTIONS: 'custom_title=GitHub+activity&show_icons=true&include_all_commits=true&show=prs_merged,prs_merged_percentage,prs_reviewed&rank_icon=github&card_width=500&line_height=23&number_format=long&disable_animations=true'
-      LANGUAGE_OPTIONS: 'custom_title=Top+languages&layout=donut&card_width=500&langs_count=7&hide=html,Jupyter%20Notebook&disable_animations=true'
+      LANGUAGE_OPTIONS: 'custom_title=Top+languages&layout=compact&card_width=500&langs_count=8&hide=html,Jupyter%20Notebook&disable_animations=true'
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
@@ -31,7 +31,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: stats
-          options: ${{ env.STATS_OPTIONS }}&theme=tokyonight
+          options: ${{ env.STATS_OPTIONS }}&theme=tokyonight&border_color=343b58
           path: profile/stats-dark.svg
           core_version: ${{ env.CORE_VERSION }}
           fail_on_error: 'true'
@@ -49,7 +49,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: top-langs
-          options: ${{ env.LANGUAGE_OPTIONS }}&theme=tokyonight
+          options: ${{ env.LANGUAGE_OPTIONS }}&theme=tokyonight&border_color=343b58
           path: profile/languages-dark.svg
           core_version: ${{ env.CORE_VERSION }}
           fail_on_error: 'true'
