@@ -10,4 +10,4 @@
   <img src="./profile/languages-light.svg" alt="Top languages across PipeKnight's public repositories">
 </picture>
 
-Generated daily with [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended).
+<!-- Generated daily with [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended). -->
