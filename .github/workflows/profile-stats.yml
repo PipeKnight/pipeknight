@@ -67,10 +67,17 @@ jobs:
       - name: Publish cards
         run: |
           git add -- profile/{stats,languages}-{dark,light}.svg
-          if git diff --cached --quiet; then
-            exit 0
+          if git diff --cached --quiet && [ -f profile/last-published-at.txt ]; then
+            # Scheduled runs alone do not prevent GitHub's 60-day inactivity timeout.
+            now=$(date +%s)
+            last_commit=$(git log -1 --format=%ct)
+            if (( now - last_commit < 30 * 24 * 60 * 60 )); then
+              exit 0
+            fi
           fi
 
+          date -u +'%Y-%m-%dT%H:%M:%SZ' > profile/last-published-at.txt
+          git add -- profile/last-published-at.txt
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -m 'Refresh profile statistics'
