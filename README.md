@@ -1,18 +1,13 @@
 ### Hi there 👋
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=PipeKnight&show_icons=true&theme=tokyonight&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+  <img src="./profile/stats-light.svg" alt="Public GitHub activity for PipeKnight, including commits, stars, issues, and pull requests">
+</picture>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PipeKnight&hide=html,Jupyter%20Notebook&layout=donut&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-dark.svg">
+  <img src="./profile/languages-light.svg" alt="Top languages across PipeKnight's public repositories">
+</picture>
 
-<!--
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Generated daily with [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended).
